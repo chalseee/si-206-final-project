@@ -1,0 +1,256 @@
+FINAL PROJECT SI 206 - OMDB & TWEEPY MASHUP - 04/25/2017
+
+
+
+----- Some Stats About the Database -----
+
+Highest Rated Movie - Queen Of Katwe
+
+Most Retweeted Tweet about a Movie - Vampire In Brooklyn - Retweeted 10463 times.
+"RT @ira: Charlie Murphy wrote Vampire in Brooklyn which is iconic and I will not hear otherwise https://t.co/gQSYCkYQkB"6
+
+Twitter screen names that are less than 7 characters:
+1 - ira
+2 - stsm71
+3 - crw555
+4 - B_1_e_
+5 - mbc2
+6 - MG7783
+
+These user's average number of favorites - 13849.238095238095
+               -----
+
+
+
+----- Database Contents: MOVIES, TWEETS, USERS -----
+
+Movies Table Summary: 
+There are 3 movies in the database. 
+1 - Vampire In Brooklyn was produced by Paramount in 1995. It has a rating of 4.5 on IMDB.
+	It contains 4 major actors - Eddie Murphy, Angela Bassett, Allen Payne, Kadeem Hardison
+2 - Queen Of Katwe was produced by Walt Disney Studios in 2016. It has a rating of 7.3 on IMDB.
+	It contains 4 major actors - Madina Nalwanga, David Oyelowo, Lupita Nyong'o, Martin Kabanza
+3 - The Book Of Eli was produced by Warner Bros. Pictures in 2010. It has a rating of 6.9 on IMDB.
+	It contains 4 major actors - Denzel Washington, Gary Oldman, Mila Kunis, Ray Stevenson
+
+
+Tweets Table Summary: 
+There are 45 tweets in the database.
+<--- Vampire In Brooklyn Tweets ---> 
+1 -'RT @FlavorFlav: Rest In Peace Charlie Murphy \nWe grew up together in Roosevelt Long Island NY\nthank you for writing me into the vampire in\xe2\x80\xa6'
+	Retweets: 35
+2 -"12 Years A Beverly looks like him when he was Eddie Murphy's ghoul in Vampire in Brooklyn"
+	Retweets: 0
+3 -'@Brooklyn_1694 [I use my vampire hearing and listen in to the jerk yelling at the girlfriend.]'
+	Retweets: 0
+4 -"RT @MacFARLIN: I'm up watching Vampire In Brooklyn. Getting ready for work."
+	Retweets: 1
+5 -"I'm up watching Vampire In Brooklyn. Getting ready for work."
+	Retweets: 1
+6 -'Watching vampire in Brooklyn\xf0\x9f\x98\x82\xf0\x9f\x99\x8f\xf0\x9f\x8f\xbe this classic have me on the floor everytime!!'
+	Retweets: 0
+7 -'RT @ira: Charlie Murphy wrote Vampire in Brooklyn which is iconic and I will not hear otherwise https://t.co/gQSYCkYQkB'
+	Retweets: 10463
+8 -'RT @ira: Charlie Murphy wrote Vampire in Brooklyn which is iconic and I will not hear otherwise https://t.co/gQSYCkYQkB'
+	Retweets: 10463
+9 -'RT @ira: Charlie Murphy wrote Vampire in Brooklyn which is iconic and I will not hear otherwise https://t.co/gQSYCkYQkB'
+	Retweets: 10463
+10 -'RT @ira: Charlie Murphy wrote Vampire in Brooklyn which is iconic and I will not hear otherwise https://t.co/gQSYCkYQkB'
+	Retweets: 10463
+11 -'@Crystal77J @AngelZArtInc Angela Bassett in Vampire in Brooklyn did it for me. Lol'
+	Retweets: 0
+12 -'RT @ira: Charlie Murphy wrote Vampire in Brooklyn which is iconic and I will not hear otherwise https://t.co/gQSYCkYQkB'
+	Retweets: 10463
+13 -'RT @classicepics: Eddie Murphy and Wes Craven on the set of Vampire in Brooklyn. https://t.co/8d8QEeg2nT'
+	Retweets: 3
+14 -'"Evil is necessary, therefore if it\'s necessary, evil must be good." - Preacher Pauley (A Vampire In Brooklyn) \xf0\x9f\x98\x82'
+	Retweets: 0
+15 -'"If every day is a sunny day, then what\'s a sunny day?" - Preacher Pauley (A Vampire In Brooklyn) \xf0\x9f\x98\x82'
+	Retweets: 0
+
+<--- Queen Of Katwe Tweets ---> 
+16 -"@Kamiduu I think I remembered you liked Queen of Katwe? It's in Netflix now, FYI!"
+	Retweets: 0
+17 -'@JakesLipbalm @venusb23 @EbonyStarr5 Just got done watching Queen of Katwe on Netflix. Awesome!!! Tears of Joy! Please watch ASAP!!!'
+	Retweets: 0
+18 -"I'm watching queen of katwe now"
+	Retweets: 0
+19 -"I can't believe Disney made this movie but Queen of Katwe is really good! It was based on a true story about a Ugandan Chess Champion."
+	Retweets: 0
+20 -'Queen of katwe is the most precious movie.'
+	Retweets: 0
+21 -'watching Queen of Katwe'
+	Retweets: 0
+22 -'RT @ReelTalker: Now on Netflix: QUEEN OF KATWE is a Gorgeous, Inspiring Look at a Young Black Life Fully Realized https://t.co/kGYtQ8dFdF h\xe2\x80\xa6'
+	Retweets: 230
+23 -'RT @ReelTalker: Now on Netflix: QUEEN OF KATWE is a Gorgeous, Inspiring Look at a Young Black Life Fully Realized https://t.co/kGYtQ8dFdF h\xe2\x80\xa6'
+	Retweets: 230
+24 -'RT @CAwkward: Queen of Katwe is on Netflix. This is not a drill. Queen of Katwe is on Netflix.'
+	Retweets: 24
+25 -'RT @ReelTalker: Now on Netflix: QUEEN OF KATWE is a Gorgeous, Inspiring Look at a Young Black Life Fully Realized https://t.co/kGYtQ8dFdF h\xe2\x80\xa6'
+	Retweets: 230
+26 -'QUEEN OF KATWE ON NETFLIX!!!\xf0\x9f\x92\xaf\xf0\x9f\x8d\xbe\xf0\x9f\xa5\x82'
+	Retweets: 0
+27 -'RT @ReelTalker: Now on Netflix: QUEEN OF KATWE is a Gorgeous, Inspiring Look at a Young Black Life Fully Realized https://t.co/kGYtQ8dFdF h\xe2\x80\xa6'
+	Retweets: 230
+28 -'RT @CAwkward: Queen of Katwe is on Netflix. This is not a drill. Queen of Katwe is on Netflix.'
+	Retweets: 24
+29 -'@jsteed23 Queen of Katwe(:'
+	Retweets: 0
+30 -'RT @ReelTalker: Now on Netflix: QUEEN OF KATWE is a Gorgeous, Inspiring Look at a Young Black Life Fully Realized https://t.co/kGYtQ8dFdF h\xe2\x80\xa6'
+	Retweets: 230
+
+<--- The Book Of Eli Tweets ---> 
+31 -'Russell Westbrook is the sports personification of The Book of Eli. \n\n#NBAPlayoffs2017'
+	Retweets: 0
+32 -'HOTSALT- Change by The Book of Eli https://t.co/04CaglHTIu https://t.co/YzUxB09jsQ'
+	Retweets: 0
+33 -'\xd9\x81\xd8\xa7\xd8\xb5\xd9\x84\xd8\xa9 \xd8\x9b\n\xd8\xad\xd9\x8a\xd8\xa7\xd8\xa9 " \xd8\xaf\xd9\x86\xd8\xb2\xd9\x84 \xd9\x88\xd8\xa7\xd8\xb4\xd9\x86\xd8\xb7\xd9\x86 " \xd9\x81\xd9\x8a \xd9\x81\xd9\x8a\xd9\x84\xd9\x85 \nThe book of eli \n\xd8\xa3\xd9\x81\xd8\xb6\xd9\x84 \xd8\xa8\xd9\x83\xd8\xab\xd9\x8a\xd8\xb1 \xd9\x85\xd9\x86 \xd8\xa7\xd9\x84\xd8\xb9\xd9\x8a\xd8\xb4 \xd9\x81\xd9\x8a \xd8\xa8\xd9\x84\xd8\xa7\xd8\xaf \xd8\xa7\xd9\x84\xd8\xb9\xd8\xac\xd8\xa7\xd8\xa6\xd8\xa8 \xd8\xb1\xd8\xba\xd9\x85 \xd8\xa7\xd9\x84\xd8\xb4\xd8\xa8\xd9\x87 \xd8\xa7\xd9\x84\xd9\x83\xd8\xa8\xd9\x8a\xd8\xb1 \xd8\xa8\xd9\x8a\xd9\x86\xd9\x87\xd9\x85'
+	Retweets: 0
+34 -'\xd9\x84\xd9\x88 \xd8\xb3\xd9\x85\xd8\xad\xd8\xaa\xd9\x88\xd8\xa7 \xd9\x8a\xd8\xa7 \xd8\xac\xd9\x85\xd8\xa7\xd8\xb9\xd8\xa9 the book of eli \xd9\x87\xd9\x8a\xd8\xaa\xd8\xb9\xd8\xa7\xd8\xaf \xd8\xa7\xd9\x85\xd8\xaa\xd9\x8a \xd8\x9f @mbc2'
+	Retweets: 0
+35 -'The book of Eli \xd9\x81\xd9\x8a\xd9\x84\xd9\x85 \xd9\x86\xd8\xb6\xd9\x8a\xd9\x81 \xd9\x88 \xd9\x85\xd9\x87\xd9\x85\xd8\xa7 \xd9\x8a\xd8\xaa\xd8\xb9\xd8\xa7\xd8\xaf \xd8\xb9 \xd8\xa7\xd9\x84\xd8\xaa\xd9\x84\xd9\x81\xd8\xb2\xd9\x8a\xd9\x88\xd9\x86 \xd9\x84\xd8\xa7\xd8\xb2\xd9\x85 \xd8\xa7\xd9\x82\xd8\xb9\xd8\xaf \xd9\x82\xd8\xaf\xd8\xa7\xd9\x85\xd9\x87'
+	Retweets: 0
+36 -'RT @Darsh_h3: The Book of Eli On MBC2 12\nDenzel Washington \xe2\x9d\xa4\xef\xb8\x8f \n\xd9\x85\xd9\x80\xd9\x86 \xd8\xa2\xd9\x84\xd8\xa2\xd9\x81\xd9\x80\xd9\x84\xd8\xa2\xd9\x85 \xd8\xa2\xd9\x84 \xd8\xa8\xd8\xad\xd8\xa8\xd9\x87\xd9\x80\xd8\xa2\xd8\xa2\n\xf0\x9f\x91\x87\xf0\x9f\x91\x87\xf0\x9f\x91\x87 https://t.co/UdOAxLteUJ'
+	Retweets: 25
+37 -'@I_BenMoheyII \xd9\x83\xd8\xa7\xd9\x86\xd9\x88\xd8\xa7 \xd8\xac\xd8\xa7\xd9\x8a\xd8\xa8\xd9\x8a\xd9\x86 \xd9\x81\xd9\x8a\xd9\x84\xd9\x85 the book of Eli \xd9\x84\xd8\xb3\xd9\x87 \xd8\xae\xd9\x84\xd8\xb5\xd8\xa7\xd9\x86 \xd8\xad\xd8\xa7\xd9\x84\xd8\xa7 \xd8\xb9\xd9\x84\xd9\x8a mbc2 \xd9\x87\xd9\x88 \xd9\x81\xd9\x8a\xd9\x84\xd9\x85 \xd8\xa7\xd9\x84\xd9\x85\xd8\xb1\xd8\xad\xd9\x84\xd8\xa9 \xd8\xa8\xd8\xa7\xd9\x84\xd9\x81\xd8\xb9\xd9\x84'
+	Retweets: 0
+38 -'RT @elfakhranyyy: The book of eli \xd9\x85\xd9\x86 \xd8\xa7\xd8\xb9\xd8\xb8\xd9\x85 \xd8\xa7\xd9\x84\xd8\xa7\xd9\x81\xd9\x84\xd8\xa7\xd9\x85 \xd9\x84 \xd8\xaf\xd9\x86\xd8\xb2\xd9\x84 \xd9\x88\xd8\xa7\xd8\xb4\xd9\x86\xd8\xb7\xd9\x86'
+	Retweets: 1
+39 -'\xd9\x8a\xd9\x85\xd9\x83\xd9\x86 \xd8\xb9\xd8\xb4\xd8\xa7\xd9\x86 \xd9\x83\xd8\xaf\xd9\x87 \xd9\x83\xd8\xa7\xd9\x86\xd9\x88\xd8\xa7 \xd8\xac\xd8\xa7\xd9\x8a\xd8\xa8\xd9\x8a\xd9\x86 \xd9\x81\xd9\x8a\xd9\x84\xd9\x85 The book of Eli \xf0\x9f\xa4\x94 https://t.co/SqdVqfM9ex'
+	Retweets: 0
+40 -'watching The Book of Eli'
+	Retweets: 0
+41 -'\xd8\xa7\xd8\xaa\xd9\x81\xd8\xb1\xd8\xac\xd9\x88\xd8\xa7 \xd8\xb9\xd9\x84\xd9\x89 \xd9\x81\xd9\x8a\xd9\x84\xd9\x85 The book of ELI\n\xd9\x82\xd9\x85\xd8\xa9 \xd8\xa7\xd9\x84\xd9\x85\xd8\xb9\xd8\xa7\xd9\x86\xd8\xa7\xd8\xa9 \xd9\x81\xd9\x8a \xd8\xa7\xd9\x84\xd8\xad\xd9\x81\xd8\xa7\xd8\xb8 \xd8\xb9\xd9\x84\xd9\x89 \xd9\x83\xd8\xaa\xd8\xa7\xd8\xa8\xd9\x87\xd9\x85 \xd8\xa7\xd9\x84\xd9\x85\xd9\x82\xd8\xaf\xd8\xb3 \xd8\xa7\xd9\x84\xd9\x85\xd8\xb2\xd8\xb9\xd9\x88\xd9\x85\n\xd8\xb9\xd9\x84\xd8\xb4\xd8\xa7\xd9\x86 \xd9\x85\xd9\x81\xd9\x8a\xd8\xb4 \xd8\xad\xd9\x8a\xd8\xa7\xd8\xa9 \xd8\xa8\xd8\xaf\xd9\x88\xd9\x86\xd9\x87\n\xd9\x88\xd8\xa7\xd8\xad\xd9\x86\xd8\xa7 \xd9\x84\xd8\xba\xd9\x8a\xd9\x86\xd8\xa7 \xd8\xa7\xd9\x84\xd8\xa5\xd8\xb3\xd9\x84\xd8\xa7\xd9\x85 \xd9\x85\xd9\x86 \xd8\xa7\xd9\x84\xd9\x85\xd8\xaf\xd8\xa7\xd8\xb1\xd8\xb3'
+	Retweets: 0
+42 -'\xd8\xa7\xd9\x86\xd8\xaa \xd9\x82\xd8\xb5\xd8\xaa\xd9\x83 \xd8\xa7\xd9\x8a\xd8\xa9\xd8\x9f\xd8\x9f\xd8\xb8\xd8\xb8 - \xd9\x8a\xd8\xb4\xd8\xa7\xd9\x87\xd8\xaf The Book of Eli'
+	Retweets: 0
+43 -'The Book of Eli Original Soundtrack: Panoramic (Track 01) https://t.co/37S6AvDJaw'
+	Retweets: 0
+44 -'RT @Darsh_h3: The Book of Eli On MBC2 12\nDenzel Washington \xe2\x9d\xa4\xef\xb8\x8f \n\xd9\x85\xd9\x80\xd9\x86 \xd8\xa2\xd9\x84\xd8\xa2\xd9\x81\xd9\x80\xd9\x84\xd8\xa2\xd9\x85 \xd8\xa2\xd9\x84 \xd8\xa8\xd8\xad\xd8\xa8\xd9\x87\xd9\x80\xd8\xa2\xd8\xa2\n\xf0\x9f\x91\x87\xf0\x9f\x91\x87\xf0\x9f\x91\x87 https://t.co/UdOAxLteUJ'
+	Retweets: 25
+45 -'The Book OF ELI.. https://t.co/hN6jLx9p1G'
+	Retweets: 0
+
+
+
+Users Table Summary: 
+There are 59 users in the database. 
+1 - inmadopicouroz - 20939 favorites 
+	Bio: 'Est. 1775 Tun Tavern.'
+2 - FlavorFlav - 68 favorites 
+	Bio: '#FLAVORFLAV #PUBLICENEMY follow me on instagram iamFlavorFlav'
+3 - SpikeReeds - 709 favorites 
+	Bio: 'Someone hacked my old acct @SpikeReed .Using this for now... I still see the beauty in all women... with big tits'
+4 - mikaelson_crazy - 42400 favorites 
+	Bio: 'The love of my life and husband @Ripper_60 \xe2\x9d\xa4\xef\xb8\x8f Married 3-15-16 Our baby girl @MiaLilSal daughter #NoDrama 18+ #NoUninvitedDMs'
+5 - Brooklyn_1694 - 297424 favorites 
+	Bio: 'Family and friends is all that matters; Mother of twins #Vampire; Humanity: ON; TVD, TO, TMNT, TW; #Single #RP #OC #RL Adopted Mikaelson sister'
+6 - DJ_MacFARLiN - 345 favorites 
+	Bio: 'Follow @Macfarlin & email MacfarlinBaby@Gmail.com for beats .'
+7 - MacFARLIN - 2524 favorites 
+	Bio: 'C.E.O/Producer at Teamrnbmusic For sales email MacFarlinBaby@Gmail.com'
+8 - TheeMsParkerToU - 935 favorites 
+	Bio: '\xf0\x9f\x87\xa8\xf0\x9f\x87\xb3 Jack of all trades|ProfessionalPrint/RunwayModel\xf0\x9f\x93\xb8| Phlebotomist\xf0\x9f\x92\x89| PCT\xe2\x9b\x91| Future RN\xf0\x9f\x92\x89| Hair\xf0\x9f\x92\x87\xf0\x9f\x8f\xbdMakeup\xf0\x9f\x92\x84| Dance/Cheer Choreographer\xf0\x9f\x91\xaf\xe2\x80\x8d\xe2\x99\x82\xef\xb8\x8f'
+9 - MagicMilan97 - 2292 favorites 
+	Bio: ''
+10 - ira - 36961 favorites 
+	Bio: "Culture writer @MTVNews. Leo. I didn't just come here to dance."
+11 - _FlexGod - 16085 favorites 
+	Bio: 'got a pure soul ion do the hate. #OMC #RIHDAVY #FreeKaine'
+12 - _Good_Fella - 24149 favorites 
+	Bio: '.Scarface is the greatest motion picture ever created #PatriotNation #DubNation #BNB #RockChalkJayhawk #KUCMB 316 \xe2\x9c\x88\xef\xb8\x8f 229'
+13 - LindseyL0CA - 2255 favorites 
+	Bio: "\xf0\x9f\x91\x91 solid tings don't crumble \xf0\x9f\x87\xaf\xf0\x9f\x87\xb2"
+14 - stsm71 - 660 favorites 
+	Bio: "i'm a little bit rock'n'roll, and a heck of a lot country!"
+15 - Crystal77J - 10856 favorites 
+	Bio: ''
+16 - AngelZArtInc - 1635 favorites 
+	Bio: 'Self published. Writer. Poet. Foodie. Adventurer. Logophile. \xe2\x9d\xa4\xef\xb8\x8f. #asktinat'
+17 - BesoBelle - 1017 favorites 
+	Bio: 'keep GOD first & mind your business. Salute.'
+18 - ShannonDillman - 1639 favorites 
+	Bio: 'Usui Reiki Master Teacher & certified Meditation teacher. Qigong& tai chi teacher, yoga teacher, herbalist & homeopathy student. Married to my bff @allendillman'
+19 - classicepics - 29 favorites 
+	Bio: ''
+20 - maspromusic - 69 favorites 
+	Bio: 'Stellar Award nominated producer and CEO of Global Worship Media, LLC'
+21 - AmyWishman - 21252 favorites 
+	Bio: "She may not look like much, but she's got it where it counts."
+22 - Kamiduu - 21262 favorites 
+	Bio: 'Head in the stars. Queen of Droids. Rebel without a clue. Podcasts about #StarWars & other nerdy stuff on @blabbathehutt & @nofppod.'
+23 - crw555 - 64670 favorites 
+	Bio: 'Family, Dreamer, Optimist, Friend'
+24 - JakesLipbalm - 30874 favorites 
+	Bio: 'Proud Uppity Negress\n#Beyhive \xf0\x9f\x90\x9d,\n\xf0\x9f\x8e\xb6MJ, \nPart Time #Scandal fan,\nFull time lover of nonsense,\nUndercover #Blerd,\nDog Lover \xf0\x9f\x90\xb6,\nOccasional Live Tweeter'
+25 - venusb23 - 21797 favorites 
+	Bio: '26. Christian. Music lover. #FoleyFangirl'
+26 - EbonyStarr5 - 142701 favorites 
+	Bio: 'Virgo. Obamacrat. MJ Stan. BlackGirlMagic Enthusiast. House Stark. Katana-wielder. Metahuman. Gladiator. CloneClub #NotMyPresident #Forever44 More Life \xf0\x9f\x8c\xba'
+27 - orbfriend - 31980 favorites 
+	Bio: 'icon @dghd'
+28 - MissJanuaryy - 5395 favorites 
+	Bio: 'I use Twitter to treat my narcolepsy.'
+29 - aperdomo72 - 4269 favorites 
+	Bio: '22. Tampa  \xf0\x9f\x91\xbbAperdomo27 IG Fredogio'
+30 - MsDarlene617 - 131 favorites 
+	Bio: 'CEO/Founder of LOVEMOTION Inc.\nWriter/Producer/Photographer/Editor/Teacher/Mentor/Auntie/Sister/Friend/Daughter Of God\nEmail: lovemotion.inc@gmail.com'
+31 - Nabila38 - 21616 favorites 
+	Bio: ''
+32 - ReelTalker - 19 favorites 
+	Bio: 'Founder: Reel Talk Online, @CinemaInNoir host, Member: @OFCS. Bylines: @Essence @BlackGirlNerds @drafthouse @BitchFlicks @ABCNewsLive reeltalkonline@gmail.com'
+33 - geylivia - 1735 favorites 
+	Bio: 'He is the keeper of my soul. Writer. Face Beater. FAMU Alum. IG: gladysoliviamurray SC: eatprayliv'
+34 - kellywooten - 8285 favorites 
+	Bio: "Women's/LGBTQ history, archives, zines, Murder She Wrote, kitties, and Bowlathon."
+35 - CAwkward - 14513 favorites 
+	Bio: 'The Marie Kondo of breakups. She/her.  https://t.co/kmy1zUQanl https://t.co/ZwCTNxFZy0 https://t.co/d8i6hBhyMD'
+36 - Prince_ESQ - 22421 favorites 
+	Bio: 'Experience Consigliere. Culture Curator. Club Furniture Athlete. | Creative Director of Soiree @ Society Global | #JoinTheSociety #CarpeDiem | Tour Stops \xf0\x9f\x91\x80\xf0\x9f\x91\x87\xf0\x9f\x8f\xbe'
+37 - raadstunts - 2615 favorites 
+	Bio: 'Laugh on the daily and see the difference| \xf0\x9f\x87\xb3\xf0\x9f\x87\xac| 19'
+38 - 1ndigog0 - 30045 favorites 
+	Bio: "The only Peanut Gang member to show up to their teacher's funeral."
+39 - dotless_i - 4815 favorites 
+	Bio: 'Some characters make things interesting just by existing.'
+40 - anissaj75 - 1741 favorites 
+	Bio: 'God, family, young, White Mountain Apache'
+41 - jsteed23 - 3736 favorites 
+	Bio: 'Lost My Mind Am Living Fine Without It #TeamiPhone #TeamApple NY Yankees Tar-Heels AzCardinals Hornets #Sadderday #CoolStoryJake'
+42 - JenniferSam03 - 20476 favorites 
+	Bio: '#blacklivesmatter #notmypresident naija ghel\xf0\x9f\x87\xb3\xf0\x9f\x87\xac'
+43 - TariqToure - 3213 favorites 
+	Bio: 'Writer | Servant | Seeker | "Surely Allah will not change the condition of a people until they change themselves" Surah 13 Verse 11 (Views are mine)'
+44 - inflamescrime - 175 favorites 
+	Bio: "don't try this at home..."
+45 - B_1_e_ - 1 favorites 
+	Bio: '\xe2\x80\x8f\xe2\x80\x8f\xe2\x80\x8f\xe2\x80\x8f\xd9\x81\xe2\x80\x8f\xe2\x80\x8f\xe2\x80\x8f\xe2\x80\x8f\xd9\x8a \xd8\xb1\xd8\xad\xd9\x84\xd8\xa9 \xd8\xa5\xd9\x84\xd9\x89 \xd8\xa8\xe2\x80\x8f\xe2\x80\x8f\xe2\x80\x8f\xe2\x80\x8f\xd9\x84\xd8\xa7\xd8\xaf \xd8\xa7\xd9\x84\xd8\xb9\xd8\xac\xd8\xa7\xd8\xa6\xd8\xa8 \xd8\x9b\xd8\x9b\xd8\x9b'
+46 - mahmoud1988_ - 1053 favorites 
+	Bio: '#JFT74 #ahly'
+47 - mbc2 - 1 favorites 
+	Bio: 'MBC2 is the first 24-hour free-to-air movie channel in the Arab World. The Channel offers a wide variety of top international and Hollywood movies'
+48 - 3omaryaser - 4656 favorites 
+	Bio: '\xe2\x80\x8f\xd9\x83\xd8\xaa\xd8\xb1 \xd8\xa7\xd9\x84\xd9\x83\xd9\x84\xd8\xa7\xd9\x85 \xd8\xae\xd9\x8a\xd8\xa8\xd9\x87'
+49 - Bakkar96816302 - 250 favorites 
+	Bio: 'football player \xe2\x9d\xa4\xe2\x9a\xbd'
+50 - Darsh_h3 - 91 favorites 
+	Bio: ''
+51 - omar_alshafie - 7786 favorites 
+	Bio: '\xd8\xb3\xd8\xa3\xd9\x85\xd9\x88\xd8\xaa \xd9\x85\xd9\x86\xd8\xaa\xd8\xb5\xd8\xb1\xd8\xa7\xd9\x8b \xd8\xa7\xd9\x88 \xd8\xb3\xd8\xa3\xd9\x85\xd9\x88\xd8\xaa \xd9\x88\xd8\xa7\xd9\x86\xd8\xa7 \xd8\xa3\xd8\xad\xd8\xa7\xd9\x88\xd9\x84 \xe2\x9c\x8b'
+52 - I_BenMoheyII - 2037 favorites 
+	Bio: '\xe2\x80\x8f\xe2\x80\x8f\xe2\x80\x8f#Sagittarius #UA07 #Mouniran #NoMiltrials #Ahly #RM #MUFC  #\xef\xba\x8d\xef\xbb\x9f\xef\xba\xaa\xef\xba\xb3\xef\xba\x98\xd9\x88\xef\xba\xad #Soc_Democratic \n\n\xd9\x81\xd8\xae\xd9\x88\xd8\xb1 \xd8\xa7\xd9\x86\xd9\x8a \xd8\xa7\xd8\xaa\xd8\xba\xd9\x8a\xd8\xb1\xd8\xaa \xd9\x85\xd8\xb9 \xd9\xa2\xd9\xa5 \xd9\x8a\xd9\x86\xd8\xa7\xd9\x8a\xd8\xb1 \n\n\xef\xbb\xa7\xef\xbb\x94\xef\xba\xb4\xef\xbb\xb2 \xef\xba\x91\xef\xbb\xa0\xef\xba\xaa \xef\xbb\xa3\xef\xbb\xa6 \xef\xbb\x8f\xef\xbb\xb4\xef\xba\xae \xef\xbb\x8b\xef\xba\xb4\xef\xbb\x9c\xef\xba\xae \xd8\xa7\xd9\x88 \xef\xba\xa3\xef\xba\xae\xef\xba\x8d\xef\xbb\xa3\xef\xbb\xb4\xef\xbb\xaa \xd9\x88\xd9\x84\xd8\xa7 \xd8\xa7\xd8\xae\xd9\x88\xd8\xa7\xd9\x86'
+53 - IsmailModric - 575 favorites 
+	Bio: '\xe2\x80\x8f\xd8\xa7\xd9\x87\xd9\x84\xd8\xa7\xd9\x88\xd9\x8a... \xd9\x85\xd8\xaf\xd8\xb1\xd9\x8a\xd8\xaf\xd9\x8a... \xd8\xaf\xd9\x85\xd9\x8a\xd8\xa7\xd8\xb7\xd9\x8a.. \xd8\xae\xd8\xb1\xd9\x8a\xd8\xac \xd8\xaa\xd8\xac\xd8\xa7\xd8\xb1\xd8\xa9..  23 \xd8\xb3\xd9\x86\xd8\xa9! \xd8\xac\xd9\x86\xd8\xaf\xd9\x8a \xd9\x85\xd9\x82\xd8\xa7\xd8\xaa\xd9\x84 \xd8\xa8\xd8\xb7\xd9\x84 \xd9\x87\xd9\x85\xd8\xa7 \xd8\xa7\xd9\x84\xd9\x84\xd9\x8a \xd9\x82\xd8\xa7\xd9\x84\xd9\x88\xd9\x84\xd9\x8a \xd9\x83\xd8\xaf\xd9\x87... \xd8\xa7\xd9\x84\xd8\xb9\xd8\xb1\xd9\x8a\xd8\xb4 \xd8\xb4\xd9\x85\xd8\xa7\xd9\x84 \xd8\xb3\xd9\x8a\xd9\x86\xd8\xa7\xd8\xa1 \xd8\x9f \xd8\xa7\xd8\xa8\xd8\xaa\xd8\xb3\xd9\x85 \xd8\xb3\xd9\x86\xd9\x85\xd9\x88\xd8\xaa \xd9\x82\xd8\xb1\xd9\x8a\xd8\xa8\xd8\xa7 \xd8\x9f'
+54 - elfakhranyyy - 3880 favorites 
+	Bio: 'The Nothing'
+55 - FatmaMaatouq - 82 favorites 
+	Bio: ''
+56 - MG7783 - 115 favorites 
+	Bio: ''
+57 - MTA_Programmer - 0 favorites 
+	Bio: ''
+58 - NamoryLFC - 15469 favorites 
+	Bio: 'Liverpool Fan, Photography, Cinema addict, Curious'
+59 - sameerhassen3 - 11 favorites 
+	Bio: '\xd8\xb9\xd8\xb4\xd8\xaa\xd9\x83 \xd9\x8a\xd8\xa7\xd8\xb2\xd9\x85\xd9\x86 \xd8\xa7\xd9\x84\xd8\xb9\xd8\xac\xd8\xa7\xd8\xa6\xd8\xa8'
